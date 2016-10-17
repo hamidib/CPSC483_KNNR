@@ -1,17 +1,11 @@
 # CPSC483_KNNR
 from sklearn.neighbors import KNeighborsRegressor
 import numpy as np
-import urllib
-import urllib.request
 
-#X = np.load("winequality-full.npy")
-
+#loading in training data
 X = np.load("predictors.npy")
-
 training_y_color = np.load("labels_color.npy")
-
 training_y_quality = np.load("labels_quality.npy")
-
 training_y_quality_binary = np.load("labels_quality_binary.npy")
 
 #Check if data loaded in
